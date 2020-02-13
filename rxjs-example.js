@@ -1,3 +1,7 @@
+/*
+  Including https://unpkg.com/@reactivex/rxjs@6.5.4/dist/global/rxjs.umd.js
+  in index.html's script tag gives us rxjs globally available under window.rxj
+*/
 const { Observable } = rxjs
 
 const observable$ = Observable.create((observer) => {
